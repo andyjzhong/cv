@@ -8,6 +8,22 @@ h1 {
   margin-top: 0;
 }
 
-nav {
-  display: inline;
+li {
+  display: inline-block;
+  padding: 30px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #47597E;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #B2AB8C;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #B2AB8C;
 }
