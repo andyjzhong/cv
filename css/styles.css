@@ -63,15 +63,19 @@ p {
 
 /* Download Buttons */
 .download-btn {
-  margin: 5% 3% 5% 0;
+  margin: 5% 0 5% 0;
+}
+
+.title-section {
+  text-align: center;
 }
 
 /* Title Image */
 .title-img {
-  width: 60%;
-  position: absolute;
-  right: 30%;
+  width: 15%;
   border-radius: 100%;
+  margin: 10% 2rem 3rem;
+  border: 5px solid #FFFFFF;
 }
 
 /* Features Section */
@@ -133,7 +137,7 @@ p {
 
 /* Pricing */
 
-#pricing {
+#project {
   padding: 100px;
   text-align: center;
 }
@@ -142,7 +146,7 @@ p {
   padding: 7% 15%;
 }
 
-.pricing-col {
+.project-col {
   padding: 3% 2%;
 }
 
@@ -175,10 +179,15 @@ p {
 
   #title {
     text-align: center;
+    height: 80vh;
   }
 
   .title-img {
-    transform: rotate(0deg);
-    position: static;
+    width: 80%;
+    margin: 20% 2rem 5rem;
+  }
+
+  .download-btn {
+    width: 80%;
   }
 }
