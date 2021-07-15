@@ -63,3 +63,19 @@ body {
   margin: 10% 2rem 3rem;
   border: 2px solid #FFFFFF;
 }
+
+/* Footer */
+.footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #212121;
+  color: #FFFFFF;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.copyright {
+  color: #FFFFFF;
+}
