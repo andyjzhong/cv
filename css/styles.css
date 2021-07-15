@@ -50,8 +50,12 @@ body {
 }
 
 .full-name {
-  border-bottom: 1px solid #FFFFFF;
-  border-bottom-color: blue;
+  padding-bottom: 0.5%;
+  border-bottom: 1px solid #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
 }
 
 /* Bio Page */
