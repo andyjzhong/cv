@@ -41,12 +41,17 @@ body {
   z-index: -10;
 }
 
-.full-name {
+.splash-page-container {
   align-items: center;
   color: #FFF;
   display: flex;
   justify-content: center;
   min-height: 100%;
+}
+
+.full-name {
+  border-bottom: 1px solid #FFFFFF;
+  border-bottom-color: blue;
 }
 
 /* Bio Page */
