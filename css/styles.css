@@ -9,6 +9,11 @@ body {
   background-size: cover;
 }
 
+h2 {
+  color: #FF4B00;
+  font-size: 3rem;
+}
+
 /* Nav Bar */
 .navbar {
   opacity: 1;
@@ -94,11 +99,20 @@ body {
   margin-top: 8.5%;
 }
 
+.location {
+  font-weight: bold;
+}
+
+.download-btn {
+  background-color: #2C4FB8;
+  color: #FFF;
+}
+
 /* Footer */
 .footer {
   padding: 7% 15%;
   text-align: center;
-  background-color: #212121;
+  background-color: #252525;
   color: #FFF;
 }
 
