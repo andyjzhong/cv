@@ -7,7 +7,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: pink;
 }
 
 /* Nav Bar */
@@ -69,7 +68,7 @@ body {
   color: #000;
   z-index: -10;
   margin-top: 100vh;
-  padding: 7% 10% 7% 10%;
+  padding: 5% 10% 5% 10%;
 }
 
 .profile-pic {
@@ -77,6 +76,10 @@ body {
   border-radius: 100%;
   margin: 10% 2rem 3rem;
   border: 2px solid #000;
+}
+
+.bio-right {
+  margin-top: 8.5%;
 }
 
 /* Footer */
