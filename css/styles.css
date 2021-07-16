@@ -102,12 +102,13 @@ body {
   color: #FFF;
 }
 
-.socials-container {
+.footer-socials-container {
   margin: 50px 0;
 }
 
-.social-btn {
+.footer-socials-container > .social-btn {
   margin: 0 0.5%;
+  padding: 0.7% 1%;
 }
 
 .copyright {
