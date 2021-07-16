@@ -103,7 +103,7 @@ h2 {
   font-weight: bold;
 }
 
-.download-btn {
+.download-btn, .project-btn {
   background-color: #2C4FB8;
   color: #FFF;
 }
@@ -123,6 +123,15 @@ h2 {
   text-align: center;
   color: #666666;
 }
+
+.project-col {
+  margin: 3% 0;
+}
+
+.card-img-top {
+  max-height: 300px;
+}
+
 
 
 /* Footer */
