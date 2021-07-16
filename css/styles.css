@@ -35,6 +35,18 @@ body {
   color: #FFF !important;
 }
 
+.top-socials-container {
+  width: 200px;
+  margin-right: 1rem;
+  text-align: right;
+  position: absolute;
+  right: 0;
+}
+
+.top-socials-container > button {
+  margin-left: 0.5rem;
+}
+
 /* Splash Page */
 .splash-page {
   background-color: rgba(0, 0, 0, 0.5);
