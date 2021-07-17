@@ -103,8 +103,10 @@ h2 {
   margin-top: 8.5%;
 }
 
-.location {
+.callout {
   font-weight: bold;
+  font-size: 1.15em;
+  color: #000;
 }
 
 .download-btn, .project-btn {
