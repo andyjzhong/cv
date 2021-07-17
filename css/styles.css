@@ -114,6 +114,11 @@ h2 {
   color: #FFF;
 }
 
+.download-btn:hover, .project-btn:hover {
+  background-color: #002182;
+  color: #FFF;
+}
+
 /* Skills Page */
 .skills-page {
   background-color: #D3E5F9;
