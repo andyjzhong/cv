@@ -2,16 +2,21 @@ body {
   color: #FFF;
   margin: 0;
   padding: 0;
-  background: url("../assets/newYorkSkyline.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 h2 {
   color: #FF4B00;
   font-size: 3rem;
+}
+
+.backdrop {
+  background: url("../assets/newYorkSkyline.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  z-index: -20;
 }
 
 /* Nav Bar */
@@ -59,7 +64,6 @@ h2 {
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: -10;
 }
 
 .splash-page-container {
@@ -84,7 +88,7 @@ h2 {
   background-color: #FFF;
   color: #666666;
   z-index: -10;
-  margin-top: 100vh;
+  /* margin-top: 100vh; */
   padding: 5% 10% 5% 10%;
 }
 
